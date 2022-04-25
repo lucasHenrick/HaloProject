@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap');
+.banner{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url(assets/7469c0b6-7b21-423f-9bf0-ea08c6bca469.jpg) center/cover;
+    /* object-fit: contain;
+    position:relative; 
+    top:0px; 
+    left:0px */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+    font-size: 3em;
+}
+.banner a{
+    padding: 5px 20px 5px 22px;
+    color: #054b16;
+    font-weight: 900;
+    background: #9bf00b;
+    font-style: normal;
+    font-family: 'Akshar', sans-serif;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.action{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+img{
+    display: block;
+    margin: 5px auto;
+    max-width: 100%;
+    margin-top: 3.2em;
+    margin-bottom: 3.2em;
+}
+
+.game-pass{
+    display: flex;
+}
+
+.info {
+    color: #fff;
+    font-family: 'Akshar', sans-serif;
+    margin-left:2em;
+    margin-right:2em;
+}
+.info a {
+    padding: 5px 20px 5px 22px;
+    color: #9bf00b;
+    font-weight: 900;
+    text-decoration: none;
+    padding-left: 0;
+}
+.info img {
+    margin-left: 0;
+}
+.info h2 {
+    font-size: 2.5em;
+}
+.logo-jogo img {
+    width: 100%;
+    height: 100vh;
+}
+
+.jogos{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto;
+    color: #fff;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.jogos h3 {
+    font-family: 'Akshar', sans-serif;
+}
+.halo{
+    padding: 25px;
+    flex-grow: 2;
+    font-family: 'Akshar', sans-serif;
+}
+.halo a {
+    text-decoration: none;
+    color: #9bf00b;
+    font-weight: 900;
+
+}
+@media only screen and (max-width: 600px) {
+    .game-pass{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left:1em;
+        margin-right:1em;
+    }
+    .jogos{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left:1em;
+        margin-right:1em;
+    }
+    .logo-jogo img {
+        width: 110%;
+        height: 100vh;
+    }
+    .info img {
+        display: block;
+        margin: 5px auto;
+        max-width: 100%;
+        margin-top: 3.2em;
+        margin-bottom: 3.2em;
+    }
+    .info {
+        background-color: #333;
+        padding: 15px;
+        margin-left:0;
+        margin-right:0;
+    }
+  }
+
